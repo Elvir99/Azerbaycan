@@ -1,0 +1,156 @@
+:root {
+    --header-height: 80px;
+    --color-main: #fff;
+    --logo-size: 60px;
+}
+
+*{
+    font-family: 'Poppins', sans-serif!important;
+}
+
+body{
+    background:url(../images/backimage2.png);
+    background-size:cover;
+    object-fit:cover;
+    min-height:100vh;
+}
+.header {
+    height: var(--header-height);
+
+    .header-items{
+        z-index:3;
+    }
+
+    .logo {
+        height: var(--logo-size) !important;
+    }
+    p{
+        font-size:12px;
+    }
+}
+.footer{
+    top: 100% !important;
+    position: sticky !important;
+    margin-top:auto!important;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.header-link{
+
+    a{
+        text-decoration:none;
+    }
+}
+
+.history{
+    background-color: rgba(26, 84, 148, 0.5);
+    backdrop-filter:blur(3px);
+    border-radius:20px;
+    width: 97% !important;
+    max-width:97!important;
+
+    .box{
+        background-color: rgba(26, 84, 148, 1.5);
+        border-radius:20px;
+        padding:20px;
+        margin:5px 0;
+    }
+}
+.car{
+    position: relative !important;
+
+    .top-icon{
+        margin: 60px 0 0 -130px;
+    }
+}
+
+.bottom-box{
+
+    .bottom-icon{
+        margin: 65px 0 0 -130px!important; 
+    }
+}
+
+.box2{
+    margin-right:-110px!important;
+    margin-left:100px!important;
+}
+
+
+@media (max-width:420px){
+    .history{
+        .box{
+           img{
+            width: 251px !important;
+            height: 100% !important;
+           }
+        }
+        .box2{
+            margin: 0 !important;
+        }
+        .top-icon{
+            margin: 50px 0 0 -100px!important;
+        }
+        .bottom-icon{
+            margin: 65px 0 0 -135px; 
+        }
+    }
+
+    .firstbox{
+        img{
+            margin-top:100px!important;
+        }
+    }
+
+    .bottom-box{
+        height:165px;
+        width:159px;
+        .bottom-icon{
+            margin: 45px 0 0 -110px!important; 
+        }
+    }
+
+}
+//////////////////////////////////////////////////
+
+@media (max-width:769px){
+    .history{
+        .top-icon{
+            margin: 50px 0 0 -120px;
+        }
+    }
+}
+
+///////////////////////////////////////////////////
+
+@media (max-width:1024px){
+    .history{
+        .box2{
+            margin: 0 !important;
+        }
+    }
+}
+
+///////////////////////////////////////////////////
+
+
+@media (max-width:1400px){
+    .history{
+        .box2{
+            margin: 0 !important;
+        }
+    }
+}
+
+
+
+
+
+
+
+@for $i from 0 through 60 {
+    .f-#{$i} {
+        font-size: #{$i}px;
+    }
+}
+
