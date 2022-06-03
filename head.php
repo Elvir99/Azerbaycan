@@ -18,13 +18,15 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 <body>
+
+
                                                     
-                                                 <!--  HEADER -->
+      <!--  HEADER -->
 
      <div class="header container-fluid d-flex justify-content-center pt-3">
             <div class="d-flex justify-content-center align-items-center w-100 text-white">
 
-                <div class="fw-bold d-flex align-items-center header-left ms-5">
+                <div class="fw-bold d-flex align-items-center ms-5">
                     <img src="../images/Group272.svg" class="img-fluid logo">
                     <p class="ms-auto ms-md-2 mb-0">Azərbaycan İnformasiya və <br> Kommunikasiya Texnologiyaları<br>  Sənayesi Assosiasiyası</p>
                 </div>
@@ -48,9 +50,11 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
                 </div>
             </div>
     </div>
+
+    
        
     
-                                                <!-- OPEN MENU -->
+       <!-- OPEN MENU -->
 
 
 <div class="openmenu pb-1" id="menu">
@@ -58,6 +62,13 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 <div class="header container-fluid d-flex justify-content-center">
 
     <div class="d-flex justify-content-center align-items-center w-100 text-white">
+
+
+    <div class="fw-bold d-flex align-items-center ms-5">
+        <img src="../images/Group272.svg" class="img-fluid logo">
+        <p class="ms-auto ms-md-2 mb-0">Azərbaycan İnformasiya və <br> Kommunikasiya Texnologiyaları<br>  Sənayesi Assosiasiyası</p>
+    </div>
+
 
         <div class="ms-auto d-flex text-white me-2">
 
@@ -109,7 +120,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
         <a href="index-4.php" class="d-block text-white py-1 link-hover">Müşahidə şurası</a>
         <a href="index-5.php" class="d-block text-white py-1 link-hover">İdarə heyyəti</a>
         <a href="index-6.php" class="d-block text-white py-1 link-hover">Mərkəzi idarəetmə</a>
-        <a href="#" class="d-block text-white py-1 link-hover">Strateji Tərəfdaşlıq</a>
+        <a href="index-7.php" class="d-block text-white py-1 link-hover">Strateji Tərəfdaşlıq</a>
         <a href="#" class="d-block text-white py-1 link-hover">Komitələr (Ekspertlər)</a>
         <a href="#" class="d-block text-white py-1 link-hover">Tədbirlər planı</a>
         <a href="#" class="d-block text-white py-1 link-hover">İdarə heyyəti sədrinin mesajı</a>

@@ -40,9 +40,9 @@ body{
 .header {
     height: var(--header-height);
 
-    .header-left{
-        z-index:2000!important;
-    }
+    // .header-left{
+    //     z-index:2000!important;
+    // }
 
     .logo {
         height: var(--logo-size) !important;
@@ -134,15 +134,17 @@ body{
     color:var(--color-main);
     display: none;
     width:100%;
-    height:max-content!important;
+    height: 100vh;
     z-index:1000!important;
-    top:0%;
-    position:absolute;
+    top:0;
+    position:fixed;
     
-    // a:hover{
-    //     background-color:transparent;
-    //     text-shadow:1px 1px 5px #999;
-    // }
+
+}
+
+.menu-links {
+    height: calc(100vh - 200px);
+    overflow-y: auto;
 }
 
 .search{

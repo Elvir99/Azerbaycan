@@ -25,8 +25,6 @@ body {
 
 .header {
   height: var(--header-height); }
-  .header .header-left {
-    z-index: 2000 !important; }
   .header .logo {
     height: var(--logo-size) !important;
     margin-right: 10px; }
@@ -86,10 +84,14 @@ body {
   color: var(--color-main);
   display: none;
   width: 100%;
-  height: max-content !important;
+  height: 100vh;
   z-index: 1000 !important;
-  top: 0%;
-  position: absolute; }
+  top: 0;
+  position: fixed; }
+
+.menu-links {
+  height: calc(100vh - 200px);
+  overflow-y: auto; }
 
 .search {
   border-bottom: 1px solid #fff; }
