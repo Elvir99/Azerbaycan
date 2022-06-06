@@ -12,25 +12,8 @@ body {
   object-fit: cover;
   min-height: 100vh; }
 
-.dropdown .dropdown-menu {
-  backdrop-filter: blur(1px);
-  box-shadow: 0.1px 0.1px 5px #999;
-  inset: 0px !important;
-  min-width: 2rem !important;
-  min-height: 5rem !important; }
-  .dropdown .dropdown-menu a:hover {
-    background-color: transparent;
-    text-shadow: 1px 1px 5px #999; }
-
 .header {
   height: var(--header-height); }
-  .header .header-left {
-    z-index: 3; }
-  .header .logo {
-    height: var(--logo-size) !important;
-    margin-right: 10px; }
-  .header p {
-    font-size: 14px; }
 
 .main-color {
   color: var(--color-main); }
@@ -61,46 +44,12 @@ body {
 .map-img {
   margin-left: -50px !important; }
 
-.carousel .carousel-inner {
-  margin: 120px 0 0 -60px !important;
-  padding: 80px 170px; }
-  .carousel .carousel-inner img {
-    width: 28px;
-    height: 40px; }
+.text-area {
+  margin: 170px 0 0 100px; }
 
-.openmenu {
-  background-color: rgba(26, 84, 148, 0.9);
-  backdrop-filter: blur(10px);
-  color: white;
-  display: none;
-  width: 100%;
-  height: max-content;
-  z-index: 2;
-  top: 0%;
-  position: absolute; }
-  .openmenu a:hover {
-    background-color: transparent;
-    text-shadow: 1px 1px 5px #999; }
-
-.search {
-  border-bottom: 1px solid #fff; }
-  .search input {
-    background-color: transparent;
-    border: none;
-    padding: 10px;
-    color: #fff !important; }
-    .search input:focus {
-      outline: none !important; }
-
-::placeholder {
-  color: #fff !important; }
-
-.menu-links a {
-  text-decoration: none; }
-
-.menu-drop {
-  background-color: rgba(27, 102, 178, 0.8) !important;
-  backdrop-filter: brightness(100%); }
+.social img {
+  width: 20px !important;
+  height: 28px !important; }
 
 .f-0 {
   font-size: 0px; }
@@ -286,235 +235,33 @@ body {
   font-size: 60px; }
 
 @media (max-width: 420px) {
-  .f-md-0 {
-    font-size: 0px !important; }
-
-  .f-md-1 {
-    font-size: 1px !important; }
-
-  .f-md-2 {
-    font-size: 2px !important; }
-
-  .f-md-3 {
-    font-size: 3px !important; }
-
-  .f-md-4 {
-    font-size: 4px !important; }
-
-  .f-md-5 {
-    font-size: 5px !important; }
-
-  .f-md-6 {
-    font-size: 6px !important; }
-
-  .f-md-7 {
-    font-size: 7px !important; }
-
-  .f-md-8 {
-    font-size: 8px !important; }
-
-  .f-md-9 {
-    font-size: 9px !important; }
-
-  .f-md-10 {
-    font-size: 10px !important; }
-
-  .f-md-11 {
-    font-size: 11px !important; }
-
-  .f-md-12 {
-    font-size: 12px !important; }
-
-  .f-md-13 {
-    font-size: 13px !important; }
-
-  .f-md-14 {
-    font-size: 14px !important; }
-
-  .f-md-15 {
-    font-size: 15px !important; }
-
-  .f-md-16 {
-    font-size: 16px !important; }
-
-  .f-md-17 {
-    font-size: 17px !important; }
-
-  .f-md-18 {
-    font-size: 18px !important; }
-
-  .f-md-19 {
-    font-size: 19px !important; }
-
-  .f-md-20 {
-    font-size: 20px !important; }
-
-  .f-md-21 {
-    font-size: 21px !important; }
-
-  .f-md-22 {
-    font-size: 22px !important; }
-
-  .f-md-23 {
-    font-size: 23px !important; }
-
-  .f-md-24 {
-    font-size: 24px !important; }
-
-  .f-md-25 {
-    font-size: 25px !important; }
-
-  .f-md-26 {
-    font-size: 26px !important; }
-
-  .f-md-27 {
-    font-size: 27px !important; }
-
-  .f-md-28 {
-    font-size: 28px !important; }
-
-  .f-md-29 {
-    font-size: 29px !important; }
-
-  .f-md-30 {
-    font-size: 30px !important; }
-
-  .f-md-31 {
-    font-size: 31px !important; }
-
-  .f-md-32 {
-    font-size: 32px !important; }
-
-  .f-md-33 {
-    font-size: 33px !important; }
-
-  .f-md-34 {
-    font-size: 34px !important; }
-
-  .f-md-35 {
-    font-size: 35px !important; }
-
-  .f-md-36 {
-    font-size: 36px !important; }
-
-  .f-md-37 {
-    font-size: 37px !important; }
-
-  .f-md-38 {
-    font-size: 38px !important; }
-
-  .f-md-39 {
-    font-size: 39px !important; }
-
-  .f-md-40 {
-    font-size: 40px !important; }
-
-  .f-md-41 {
-    font-size: 41px !important; }
-
-  .f-md-42 {
-    font-size: 42px !important; }
-
-  .f-md-43 {
-    font-size: 43px !important; }
-
-  .f-md-44 {
-    font-size: 44px !important; }
-
-  .f-md-45 {
-    font-size: 45px !important; }
-
-  .f-md-46 {
-    font-size: 46px !important; }
-
-  .f-md-47 {
-    font-size: 47px !important; }
-
-  .f-md-48 {
-    font-size: 48px !important; }
-
-  .f-md-49 {
-    font-size: 49px !important; }
-
-  .f-md-50 {
-    font-size: 50px !important; }
-
-  .f-md-51 {
-    font-size: 51px !important; }
-
-  .f-md-52 {
-    font-size: 52px !important; }
-
-  .f-md-53 {
-    font-size: 53px !important; }
-
-  .f-md-54 {
-    font-size: 54px !important; }
-
-  .f-md-55 {
-    font-size: 55px !important; }
-
-  .f-md-56 {
-    font-size: 56px !important; }
-
-  .f-md-57 {
-    font-size: 57px !important; }
-
-  .f-md-58 {
-    font-size: 58px !important; }
-
-  .f-md-59 {
-    font-size: 59px !important; }
-
-  .f-md-60 {
-    font-size: 60px !important; }
-
   .header {
     margin-top: 30px !important; }
-    .header p {
-      font-size: 9px !important; }
-    .header .header-left {
-      margin-left: 30px !important; }
-    .header .header-right {
-      margin-right: -10px !important; }
-
-  .nav-link {
-    font-size: 10px !important; }
-
-  .carousel {
-    margin: -80px 0 0 0 !important; }
-    .carousel .carousel-inner {
-      margin: 100px 0 0 -50px !important;
-      padding: 40px 30px; }
-    .carousel .carousel-item h2 {
-      font-size: 24px !important; }
 
   .buta-image {
     margin-top: 70px !important; }
 
-  .dropdown-2 {
-    display: block; }
-    .dropdown-2 button {
-      padding: 0.25rem 0.3rem !important; }
-
   .social img {
-    width: 23px !important;
-    height: 32px !important; } }
-@media (max-width: 769px) {
-  .carousel {
-    margin-top: -100px !important; }
-    .carousel .carousel-inner {
-      margin: 100px 0 0 -60px !important;
-      padding: 50px 90px; }
+    width: 20px !important;
+    height: 28px !important; }
 
+  .text-area {
+    margin: 80px 0 0 50px; }
+    .text-area h2 {
+      font-size: 18px !important; } }
+@media (max-width: 769px) {
   .buta-image {
     margin-top: 20px !important; }
 
-  .dropdown {
-    display: none; }
-
-  .dropdown-2 {
-    display: block; } }
+  .text-area {
+    margin: 100px 0 0 50px; }
+    .text-area h2 {
+      font-size: 24px !important; } }
+@media (max-width: 1024px) {
+  .text-area {
+    margin: 50px 0 0 30px; }
+    .text-area h2 {
+      font-size: 24px !important; } }
 @media (min-width: 992px) {
   .visually-lg-hidden {
     visibility: hidden; } }
