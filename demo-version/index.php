@@ -1,5 +1,5 @@
 <?php
- include('demo-header.php');
+ include('index-header.php');
  ?>           
             
                                                            <!-- HOME PAGE -->
