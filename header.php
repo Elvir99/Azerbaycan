@@ -47,7 +47,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
             <div class="d-flex justify-content-center align-items-center w-100 text-white">
 
                 <div class="fw-bold d-flex align-items-center ms-5 header-left">
-                    <a href="home.php"><img src="../images/Group272.svg" class="img-fluid logo"></a>
+                    <a href="index.php"><img src="../images/Group272.svg" class="img-fluid logo"></a>
                     <p class="ms-auto ms-md-2 mb-0">Azərbaycan İnformasiya və <br> Kommunikasiya Texnologiyaları<br>  Sənayesi Assosiasiyası</p>
                 </div>
     

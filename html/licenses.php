@@ -6,7 +6,7 @@ include('../header.php')
                                       <!-- MAIN PAGE -->
 
 <div class="d-flex text-white header-link ms-5 mt-4 f-13">
-    <a href="home.php" class="text-white ms-25 link-hover">Ana Səhifə</a>
+    <a href="index.php" class="text-white ms-25 link-hover">Ana Səhifə</a>
     <ul>
         <li><a href="#" class="text-white ms-3">Lisenziyalar</a></li>
     </ul>
