@@ -141,6 +141,9 @@ a{
 .me-45{
     margin-right:2.5rem!important;
 }
+.ms-15{
+    margin-left:6px!important;
+}
 .ms-45{
     margin-left:2.5rem!important;
 }
@@ -707,12 +710,11 @@ a{
 //  FORTH PAGE /////////// MUSAHIDE SURASI
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .image{
-    width:100%!important;
-    height: 100%!important;
+     width:100%!important;
+    // height: 100%!important;
+    height:335px!important;
 }
-.person-img{
-    max-height:335px!important;
-}
+
 .image-div{
   
     &:hover  .overlay-inner{
@@ -775,6 +777,10 @@ a{
             transform:translate(0,0);
             transition:transform  0.3s;
         }
+    }
+    .image{
+        width: 160px !important;
+        height: 160px !important;
     }
 }
 
@@ -866,9 +872,8 @@ a{
 
 
      .second-img{
-        transform: translate(-90px,-20px)!important;
-        margin-left:190px!important;
-        top:-100px;
+        transform: translate(-190px,20px)!important;
+        width: 60% !important;
     }
 }
 
@@ -943,10 +948,10 @@ a{
 }
 
 .page-8{
-
+ 
     .owl-nav{
         position:absolute;
-        top:33%;
+        top:33%!important;
         display:flex;
         justify-content:center;
         width: 100% !important;
@@ -994,6 +999,15 @@ a{
         }
     }
 
+
+}
+@media(max-width:420px){
+    .page-8{
+        .owl-nav{
+            left: 0 !important;
+        }
+    }
+   
 
 }
 
@@ -1057,8 +1071,8 @@ a{
 
     .owl-nav{
         position:absolute;
-        top:-70px;
-        right:5px;
+        top:-80px;
+        right:5px!important;
 
         .owl-prev{
             color:var(--color-main)!important;

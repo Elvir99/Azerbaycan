@@ -11,7 +11,7 @@
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-facebook"></i></a>
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-twitter"></i></a>
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-linkedin"></i></a>
-            <a href="#" class="text-white px-2 link-hover wiki-logo"><img src="../images/wikipedia-logo.svg" class="mb-1 img-fluid"></a>
+            <a href="#" class="text-white px-2 link-hover wiki-logo"><img src="images/wikipedia-logo.svg" class="mb-1 img-fluid"></a>
         </p>
     
 </div>
@@ -30,7 +30,7 @@
     loop:true,
     margin:30,
      nav:true,
-     navText: ["<img src='../images/owl-icon-left.svg'>","<img src='../images/owl-icon-right.svg'>"],
+     navText: ["<img src='images/owl-icon-left.svg'>","<img src='images/owl-icon-right.svg'>"],
     responsive:{
         0:{
             items:1
@@ -54,7 +54,7 @@
     margin:40,
     nav:true,
     dots:false,
-    navText: ["<img src='../images/owl-icon-left.svg'>","<img src='../images/owl-icon-right.svg'>"],
+    navText: ["<img src='images/owl-icon-left.svg'>","<img src='images/owl-icon-right.svg'>"],
     responsive:{
         0:{
             items:1
@@ -79,7 +79,7 @@ $('.owl-carousel-3').owlCarousel({
     margin:20,
     nav:true,
     dots:false,
-    navText: ["<img src='../images/owl-icon-left.svg'>","<img src='../images/owl-icon-right.svg'>"],
+    navText: ["<img src='images/owl-icon-left.svg'>","<img src='images/owl-icon-right.svg'>"],
     responsive:{
         0:{
             items:1
@@ -104,7 +104,7 @@ $('.owl-carousel-photo').owlCarousel({
     margin:20,
     nav:true,
     dots:false,
-    navText: ["<img src='../images/owl-icon-left.svg'>","<img src='../images/owl-icon-right.svg'>"],
+    navText: ["<img src='images/owl-icon-left.svg'>","<img src='images/owl-icon-right.svg'>"],
     responsive:{
         0:{
             items:1
@@ -130,7 +130,7 @@ $('.owl-carousel-4').owlCarousel({
     margin:20,
     nav:true,
     dots:false,
-    navText: ["<img src='../images/owl-icon-left.svg'>","<img src='../images/owl-icon-right.svg'>"],
+    navText: ["<img src='images/owl-icon-left.svg'>","<img src='images/owl-icon-right.svg'>"],
     responsive:{
         0:{
             items:1

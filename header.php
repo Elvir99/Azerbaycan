@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css" type="text/css" >
+    <link rel="stylesheet" href="css/main.css" type="text/css" >
     <title>Azərbaycan İnformasiya və Kommunikasiya Texnolgiyaları Sənayesi Assosiasiyası</title>
 
     <!-- CSS only -->
@@ -18,15 +18,8 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<link rel="icon" href="../images/favicon.png">
+<link rel="icon" href="images/favicon.png">
 
-<!-- owl carousel
-<link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
- crossorigin="anonymous"></script>
- <script src="owlcarousel/owl.carousel.min.js"></script>
- <script src="script.js"></script> -->
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"
@@ -37,6 +30,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <body>
 
 
@@ -47,7 +41,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
             <div class="d-flex justify-content-center align-items-center w-100 text-white">
 
                 <div class="fw-bold d-flex align-items-center ms-5 header-left">
-                    <a href="index.php"><img src="../images/Group272.svg" class="img-fluid logo"></a>
+                    <a href="index.php"><img src="images/Group272.svg" class="img-fluid logo"></a>
                     <p class="ms-auto ms-md-2 mb-0">Azərbaycan İnformasiya və <br> Kommunikasiya Texnologiyaları<br>  Sənayesi Assosiasiyası</p>
                 </div>
     
@@ -64,7 +58,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
         
                     <div class="d-flex align-items-center header-right ms-4 me-45">
                       
-                        <a onclick="openFunction()" href="#" class="menu-btn"><img src="../images/Group177.svg"></a>
+                        <a onclick="openFunction()" href="#" class="menu-btn"><img src="images/Group177.svg"></a>
                         </a>
                     </div>
                 </div>
@@ -85,7 +79,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 
 
     <div class="fw-bold d-flex align-items-center ms-5 header-left">
-        <a href="home.php"><img src="../images/Group272.svg" class="img-fluid logo"></a>
+        <a href="home.php"><img src="images/Group272.svg" class="img-fluid logo"></a>
         <p class="ms-auto ms-md-2 mb-0">Azərbaycan İnformasiya və <br> Kommunikasiya Texnologiyaları<br>  Sənayesi Assosiasiyası</p>
     </div>
 
@@ -209,7 +203,7 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-facebook"></i></a>
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-twitter"></i></a>
             <a href="#" class="text-white px-2 link-hover"><i class="fs-5 bi bi-linkedin"></i></a>
-            <a href="#" class="text-white px-2"><img src="../images/wikipedia-logo.svg" class="mb-1"></a>
+            <a href="#" class="text-white px-2"><img src="images/wikipedia-logo.svg" class="mb-1"></a>
         </p>
     
 </div>

@@ -93,6 +93,9 @@ a {
 .me-45 {
   margin-right: 2.5rem !important; }
 
+.ms-15 {
+  margin-left: 6px !important; }
+
 .ms-45 {
   margin-left: 2.5rem !important; }
 
@@ -791,10 +794,7 @@ a {
     opacity: 1; } }
 .image {
   width: 100% !important;
-  height: 100% !important; }
-
-.person-img {
-  max-height: 335px !important; }
+  height: 335px !important; }
 
 .image-div:hover .overlay-inner {
   transform: translate(0, 0);
@@ -831,7 +831,11 @@ a {
 
   .image-div:hover .overlay-inner {
     transform: translate(0, 0);
-    transition: transform  0.3s; } }
+    transition: transform  0.3s; }
+
+  .image {
+    width: 160px !important;
+    height: 160px !important; } }
 .underline {
   border: solid var(--color-main);
   border-width: 0 0 1px 0;
@@ -887,9 +891,8 @@ a {
     top: -78px !important; }
 
   .second-img {
-    transform: translate(-90px, -20px) !important;
-    margin-left: 190px !important;
-    top: -100px; } }
+    transform: translate(-190px, 20px) !important;
+    width: 60% !important; } }
 @media (max-width: 768px) {
   .strategic-page .owl-nav {
     right: -60px;
@@ -929,7 +932,7 @@ a {
 
 .page-8 .owl-nav {
   position: absolute;
-  top: 33%;
+  top: 33% !important;
   display: flex;
   justify-content: center;
   width: 100% !important; }
@@ -964,6 +967,9 @@ a {
       font-size: 30px;
       font-weight: 100 !important; }
 
+@media (max-width: 420px) {
+  .page-8 .owl-nav {
+    left: 0 !important; } }
 .active-box {
   width: 22px;
   height: 22px; }
@@ -987,8 +993,8 @@ a {
     max-height: 490px !important; } }
 .page-12 .owl-nav {
   position: absolute;
-  top: -70px;
-  right: 5px; }
+  top: -80px;
+  right: 5px !important; }
   .page-12 .owl-nav .owl-prev {
     color: var(--color-main) !important;
     border: 2px solid var(--color-main) !important;
